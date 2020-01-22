@@ -1,0 +1,42 @@
+/*
+	Jake Johnson
+	johnsonprint.css
+	ISQA3900-860
+	Royce
+	1/20/2020
+*/
+
+header, nav, main, footer { display: block; 
+}
+body { background-color: #FFF;
+      color: black;
+	  font-family: Verdana, Arial, sans-serif;
+}
+#wrapper { width: 100%;
+		   max-width: 1024px;
+           margin-right: auto;
+		   margin-left: auto;
+		   background-color: #FFF;
+}
+header { background-color: #fff;
+       color: black;
+	   font-family: Georgia, serif;
+}
+
+
+nav { display: none; }
+
+footer { font-size: 0.70em;
+       text-align: center;
+	   font-style: italic;
+	   padding: 10px;
+	   margin-left: 170px;
+	   background-color: #FFFFFF;
+}
+main { padding-left: 20px;
+        padding-right: 20px;
+		background-color: #FFFFFF;
+		margin-left: 0px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+}

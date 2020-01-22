@@ -1,0 +1,97 @@
+/*
+	Jake Johnson
+	johnson.css
+	ISQA3900-860
+	Royce
+	1/20/2020
+*/
+
+header, main, footer { display: block; 
+}
+body { 	background-color: #FFF;
+        background-image: url("0829191700.jpg");
+	background-size: 500px;
+	font-family: Verdana, Arial, sans-serif;
+	margin-left: 0;
+	margin-right: 0;
+}
+#wrapper { width: 90%;
+           min-width: 700px;
+	   max-width: 1024px;
+           margin: 0 auto;
+		background-color: black;
+		border-radius: 5px;
+		border-style: solid;
+		height: 100%;
+}
+header { background-color: #fff;
+	 
+}
+header img { 	display: block;
+		margin: auto;}
+h1 { font-size: 7em;
+	font-family: gill sans mt condensed; 
+	text-shadow: 2px 2px #666;}
+h2 { font-size: 1em; }
+nav { font-weight: bold;
+	 padding: 8px;
+}
+nav a { text-decoration: none; 
+	text-align: center;}
+nav a:link { color: #ff0000; }
+nav a:visited { color: #ff0000; }
+nav a:hover { color: #FFFFFF; }
+nav li { display: inline;} 
+nav ul { list-style-type: none;
+       	margin: 0;
+       	padding-left: 0; 
+	overflow: hidden;
+	text-align: center;
+}
+nav li a { padding: 4%; }
+
+main { background-color: #fff;
+	color: #000;
+	text-align: left;
+	padding: 2%; }
+.photo { float: left; 
+	padding: 1%;}
+.center { display: block;
+  	  margin-left: auto;
+ 	  margin-right: auto;
+  	  width: 50%;}
+.logo { text-align: center; }
+ul { list-style-type: none; }
+
+footer { font-size: 0.70em;
+       text-align: center;
+	   font-style: italic;
+	   padding: 10px;
+	   background-color: black;
+	   color: white;
+	border-radius: 5px;}
+
+
+@media only screen and (max-width: 1024px) {
+	body { margin: 0; padding: 0; }
+	#wrapper { width: auto; min-width: 0; margin: 0; box-shadow: none; }
+	h1 { margin: 0; }
+	nav { float: none; width: auto; padding: 8px; }
+	nav li { display: inline; }
+	nav a { padding: 4%; }
+	main { padding: 2%; margin-left: 0; font-size: 90%; }
+	footer { margin: 0; }
+}
+
+@media only screen and (max-width: 768px) {
+	h2 { height: 100%; font-size: 1.5em; padding-left: 2em; }
+	nav { padding: 0; }
+	nav a { display: block; padding: 0.2em; font-size: 1.3em; border-bottom: 1px solid #330000; }
+	nav ul { margin: 0; padding: 0; }
+	nav li { display: block; margin: 0; padding: 0; }
+	main { padding-top: 0.1em; padding-right: 0; padding-bottom: 0.1em; padding-left: 0.4em; }
+	main img { display: none; padding-right: 0; }
+	main ul { list-style-position: outside; }
+	footer { padding: 0; }
+	.video { padding: 10%; }
+}
